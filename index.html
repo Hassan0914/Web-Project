@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic-Tic-Toe</title>
+    
+    <script src="index.js"></script>
+    <style>
+        .gameContainer{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container{
+    
+    display: grid;
+    grid-template-rows: repeat(3, 10vh);
+    grid-template-columns: repeat(3, 10vh);
+    background-color: rgb(223, 137, 24);
+}
+
+.box:hover{
+    background-color: rgb(220, 197, 242);
+}
+.box{
+    border: 1px solid gold;
+    font-size: 8vh;
+    
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gameInfo{
+    padding: 0 50px;
+}
+.imgBox img{
+    width: 0;
+    transition:width 1s ease-in-out;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0px;
+}
+.bl-0{
+    border-left: 0;
+}
+.br-0{
+    border-right: 0;
+}
+    </style>
 </head>
 <body>
-    <h1>Welcome to our blogging website</h1>
+    <div class="gameContainer">
+        <div class="container">
+            <div class="box bt-0 "><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box bb-0"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+            <div class="box"><span class="boxtext"></span></div>
+        </div>
+        <div class="gameInfo">
+            <h1>Welcome to Tic Tac Toe</h1>
+            <div>
+                <span class="info">Turn for X</span>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="imgBox">
+                <img src="giphy.gif" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="jhhj.js"></script>
 </body>
 </html>
