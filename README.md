@@ -1,15 +1,29 @@
-# Web-Project
-This repository is related to our University Assignment Project related to GitHub
-following technologies are used in this assignment
-JS
-HTML
-CSS
+# Tic-Tac-Toe Web Game
 
-This project is presenting a tic tac toe game on web browser using the HTML, CSS and JavaScript.
-This game is coded and programmed by me . Some assets related to this game like
- image gifhy image and ting tong mp3 music is also upoaded on the folder name "Assests".
+This project is a part of our University Assignment, designed to demonstrate basic web development skills using HTML, CSS, and JavaScript. The goal of this project is to build an interactive Tic-Tac-Toe game playable in a web browser. 
 
+## Technologies Used
+- **HTML**
+- **CSS**
+- **JavaScript**
 
-On the start of this project I have faced the following issues
-1. Related to configuration, But this issue was resolved by changing the pc
-2. Pull Requests, Our TA guided us and I resolved the issue
+## Features
+- A fully functional Tic-Tac-Toe game.
+- Interactive UI with real-time game updates.
+- Simple design to make the game intuitive and easy to use.
+
+## Project Structure
+- `index.html`: Main HTML file for the game interface.
+- `styles.css`: Contains the styling rules for the game.
+- `jhhj.js`: JavaScript logic for handling game functionality.
+
+## Installation and Setup
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/https://github.com/shahbazhassan1212/ids-project.git
+    ```
+2. Open the `index.html` file in your preferred browser.
+
+## Credits
+- Developed by Shahbaz Hassan.
+- Developed by Hassan Khursheed
